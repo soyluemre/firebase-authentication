@@ -1,0 +1,155 @@
+.cardd {
+  max-width: 290px !important;
+  padding: 5px;
+  margin: 1rem;
+  height: 300px !important;
+  position: relative;
+  background-color: initial;
+  border-radius: 15px;
+}
+
+.cardd img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+  border: 1px solid #06443990;
+}
+
+.cardd:hover .card-bodyy {
+  display: block;
+}
+
+.like-icon {
+  color: red;
+}
+.download-icon {
+  color: #fbf8f3;
+}
+
+.comments-icon {
+  color: #01cbcb;
+}
+
+.card-bodyy {
+  position: absolute;
+  color: #fbf8f3;
+  text-align: center;
+  display: none;
+  background-color: #006a6ac0;
+  width: 100%;
+  height: 50%;
+  top: 51.5%;
+  border-radius: 0 0 15px 15px;
+  bottom: 0;
+}
+
+.card-titlee {
+  color: #fbf8f3;
+}
+
+.username {
+  color: #04ffff;
+}
+
+.btn-detail {
+  width: 165px;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  padding: 0.3rem;
+  border: 1px solid #fbf8f3;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.btn-detail:hover {
+  border: 1px solid #fbf8f3;
+  color: #006a6a !important;
+  background-color: #fbf8f3;
+}
+
+.gallery-row {
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery {
+  width: 80% !important;
+  margin: auto;
+}
+
+.gallery-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery-form input {
+  width: 50% !important;
+  border: 1px solid #006a6a;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.gallery-form input::placeholder {
+  color: #006a6a;
+}
+
+.gallery-form i {
+  font-size: 1.1rem;
+  position: absolute;
+  right: 31%;
+  top: 111px;
+  cursor: pointer;
+  color: #078787;
+}
+
+.gallery-form i:hover {
+  color: #095f5f;
+}
+
+.loading-gif {
+  text-align: center;
+  margin-top: 3rem !important;
+}
+
+.loading-gif img {
+  width: 30px;
+  margin-top: 3rem;
+}
+
+.nodata-img {
+  width: 300px;
+  margin-top: 3rem;
+}
+
+@media (max-width: 776px) {
+  .cardd {
+    max-width: 45% !important;
+    margin: 1rem auto !important;
+    padding: 0rem;
+  }
+
+  .card-bodyy {
+    top: 50%;
+  }
+}
+
+@media (max-width: 710px) {
+  .cardd {
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .gallery-form input {
+    width: 90% !important;
+  }
+
+  .gallery-form i {
+    font-size: 1.1rem;
+    position: absolute;
+    right: 17%;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,22 @@
+.page-link {
+  color: #006a6a;
+  cursor: pointer;
+}
+
+.page-link:hover,
+.page-link:focus {
+  background-color: #006a6ac0;
+  color: #fbf8f3;
+}
+
+.pagination-active {
+  background-color: #006a6ac0;
+  color: #fff;
+}
+
+.pagination-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}

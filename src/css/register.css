@@ -1,0 +1,60 @@
+.register {
+  max-width: 400px;
+  margin: auto;
+  background-color: #006a6a65;
+  text-align: center;
+  margin-top: 5rem;
+  padding: 3rem;
+  border-radius: 15%;
+}
+
+.image {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 85%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #fbf8f3;
+  color: #006a6a;
+}
+
+input::placeholder {
+  color: #006a6a;
+}
+
+.button {
+  padding: 0.7rem;
+  width: 80% !important;
+  border: none;
+  border-radius: 10px;
+  background-color: #006a6a;
+  color: #fbf8f3;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #007c7c;
+  transition: all 0.3s ease-in-out;
+}
+
+.register-icon {
+  color: #006a6a;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 767px) {
+  .register {
+    max-width: 300px;
+  }
+
+  .button,
+  input {
+    width: 100% !important;
+    padding: 0.4rem;
+  }
+}
