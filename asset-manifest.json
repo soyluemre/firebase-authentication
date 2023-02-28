@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/firebase-authentication/static/css/main.cf7aaa99.css",
-    "main.js": "/firebase-authentication/static/js/main.95ef3709.js",
+    "main.js": "/firebase-authentication/static/js/main.ba3512ad.js",
     "static/media/loading2.gif": "/firebase-authentication/static/media/loading2.757857ce13a4e4e598e4.gif",
     "static/media/no-data.png": "/firebase-authentication/static/media/no-data.a03fc88a5fe6d192b6a3.png",
     "index.html": "/firebase-authentication/index.html",
     "main.cf7aaa99.css.map": "/firebase-authentication/static/css/main.cf7aaa99.css.map",
-    "main.95ef3709.js.map": "/firebase-authentication/static/js/main.95ef3709.js.map"
+    "main.ba3512ad.js.map": "/firebase-authentication/static/js/main.ba3512ad.js.map"
   },
   "entrypoints": [
     "static/css/main.cf7aaa99.css",
-    "static/js/main.95ef3709.js"
+    "static/js/main.ba3512ad.js"
   ]
 }
