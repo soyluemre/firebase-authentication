@@ -18,6 +18,7 @@ const Login = () => {
     if (user) {
       setGiris(true);
       navigate("/firebase-authentication");
+      localStorage.setItem("username", user?.displayName);
       toast.success(`Welcome ${user?.displayName}`);
     } else {
       toast.error("Please enter the information correctly.");

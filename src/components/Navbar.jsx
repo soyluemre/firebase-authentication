@@ -14,6 +14,7 @@ const Navbar = () => {
     logout();
     navigate("/login");
     toast.success("Logout Successful");
+    localStorage.clear();
   };
 
   return (
@@ -23,6 +24,11 @@ const Navbar = () => {
           <Link className="nav-item" to="/firebase-authentication">
             <i className="home-icon fas fa-solid fa-house"></i>
           </Link>
+          {giris && (
+            <div className="nav-title">
+              Hello, {localStorage.getItem("username")}
+            </div>
+          )}
           <div className="dropdown">
             <div
               className="nav-item dropdown-toggle"
