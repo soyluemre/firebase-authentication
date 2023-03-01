@@ -69,7 +69,7 @@ const Detail = () => {
               </a>
             </div>
           </div>
-          <div className="bg-light mt-4 p-5">
+          <div className="border mt-5 p-5">
             <div className="row w-50 mx-auto">
               <div className="col-sm-12 col-md-6">
                 <h6 className="detail-title">Tags</h6>
